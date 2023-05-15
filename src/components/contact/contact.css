@@ -1,0 +1,113 @@
+.contact{
+    position: absolute;
+    width: 100%;
+    height: 984px;
+    left: 0px;
+    top: 2111px;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    background: #1D1B1B;
+
+/* black */
+
+background: #1D1B1B;
+}
+
+
+.contact .contactheader{
+    position: absolute;
+    width: 275px;
+    height: 73px;
+    left: 186px;
+    top: 170px;
+font-family: 'Pridi';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 90px;
+/* or 225% */
+
+text-transform: uppercase;
+
+/* white */
+
+color: #FCF4F4;
+}
+.contact .contactheader .bar {
+    position: absolute;
+    width: 6px;
+    height: 55px;
+    left: -30px;
+    top: 20px;
+        
+    background: #E71717;   
+}
+.contact .map {
+ position: absolute;
+width: 597px;
+height: 596px;
+left: 163px;
+top: 300px;
+background: url("../../assets/Rectangle 9.png");
+background-size: cover;
+background-position: center;
+}
+.contact .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 653px;
+    height: 503px;
+    left: 825px;
+    top: 300px;
+}
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact label {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .contact input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #817f7f;
+    color: #fff;
+    font-size: 16px;
+    width: 455px;
+    height: 64px;  }
+.contact textarea {
+
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #817f7f;
+    color: #fff;
+    font-size: 16px;
+    width: 455px;
+    height: 209px;
+    }
+
+  
+  .contact input[type='submit'] {
+    padding: 10px 30px;
+    background-color: #E71717;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 20px;
+}
+  
+  .contact input[type='submit']:hover {
+    background-color: #c51414;
+  }

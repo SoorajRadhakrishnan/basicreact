@@ -1,0 +1,23 @@
+:root{
+    --red:#FD0D0D;
+    --gray:#585151;
+    --grey:#1F2424;
+    --black:#1D1B1B;
+    --white:#FCF4F4;
+
+
+
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:"pridi",sans-serif;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}

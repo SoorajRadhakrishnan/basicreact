@@ -1,0 +1,26 @@
+header {
+    min-height: 100vh;
+    background: url('../../assets/Rectangle 1.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .pooram {
+    position: absolute;
+    width: 395px;
+    height: 106px;
+    left: 160px;
+    top: 147px;
+  
+    font-family: 'Pridi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 90px;
+    /* or 225% */
+  
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+  }
+  

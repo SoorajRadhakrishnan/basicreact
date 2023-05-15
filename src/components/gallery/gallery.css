@@ -1,0 +1,49 @@
+.gallerytext{
+    position: absolute;
+    width: 275px;
+    height: 73px;
+    left: 189px;
+    top: 1429px;
+    
+    font-family: 'Pridi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 90px;    
+    text-transform: uppercase;
+    color: #242121;
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.gallerytext .bar {
+    position: absolute;
+    width: 6px;
+    height: 55px;
+    left: -30px;
+    top: 47px;
+        
+    background: #E71717;   
+}
+.gallerybody {
+  display: inline;
+  position: absolute;
+  width: 900px;
+  min-height: 50vh;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  top: 1629px;
+  left: 239px;
+  
+}
+
+.gallerybody-item {
+  flex: 1 0 auto; /* Adjust width of items as per your preference */
+  margin: 0px;
+}
+
+.gallerybody-item img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
